@@ -1,0 +1,86 @@
+== Manipulons Ghost
+
+<<<
+
+=== Étape 1 - Installer et lancer Ghost
+
+Avant toute chose, vous devez installer https://nodejs.org/en/[Node.js], l'avenir vous le rendra bien.
+
+Je vous ai dit que tout était bien documenté, vérifions cela : https://ghost.org/fr/developers/[installation].
+
+*TL;DR*
+
+1 - Téléchargement.
+
+2 - Installation des dépendances.
+
+[source,sh]
+----
+
+npm install
+
+----
+
+3 - Démarrage.
+
+[source,sh]
+----
+
+npm start
+
+----
+
+<<<
+
+=== Étape 1 - Alors ?
+
+image::content/img/ghost_step_1.png[scaledwidth=100%, align=center]
+
+<<<
+
+=== Étape 2 - Publier du contenu
+
+Avec le navigateur, se positionner sur http://localhost:2368/admin
+
+Avant d'accéder à la page d'administration pour la première fois vous aurez droit à une liste de questions.
+
+Ensuite, amusez vous à rédiger du contenu en Markdown dans "New post".
+
+<<<
+
+=== Étape 2 - Alors ?
+
+image::content/img/ghost_step_2.png[scaledwidth=100%, align=center]
+
+<<<
+
+=== Étape 3 - Un nouveau thème
+
+Par défaut le thème est Casper, il se situe dans `content/themes`.
+
+Pour avoir un nouveau thème il suffit de copier le répertoire en question avec un nouveau nom et de modifier ce même nom dans le fichier package.json.
+
+Penser à redémarrer Ghost.
+
+Ensuite dans la page d'administration il faut changer le choix du thème via "Settings".
+
+<<<
+
+=== Étape 3 - Alors ?
+
+image::content/img/ghost_step_3.png[scaledwidth=100%, align=center]
+
+<<<
+
+=== Étape 4 - Héberger sur un vrai serveur
+
+Ghost peut être hébergé sur tout environnement faisant tourner Node.js, ça fait du monde ...
+
+Si vous le souhaitez vous pouvez créer un compte sur https://www.openshift.com/[OpenShift].
+
+<<<
+
+=== Étape 4 - Alors ?
+
+image::content/img/ghost_step_4.png[scaledwidth=100%, align=center]
+

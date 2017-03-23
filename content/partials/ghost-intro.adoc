@@ -1,0 +1,67 @@
+== Présentation de Ghost
+
+<<<
+
+=== Ghost, c'est quoi ?
+
+Ghost est un produit pour publier du contenu : contenus chauds (articles de blog) et contenus froids (pages statiques). Ni plus ni moins.
+
+Il possède tout de même les grandes fonctionnalités de tout CMS :
+
+- *Gestion des utilisateurs*.
+
+- *Optimisation pour le SEO*.
+
+- *Thème moderne et mobile* (Responsive Web Design) et possibilité d'ajouter son propre thème.
+
+
+Ce parti pris est intéressant aussi bien pour les rédacteurs que pour les développeurs.
+
+<<<
+
+=== Rédacteurs, pourquoi s'y intéresser ?
+
+Pour les rédacteurs de contenus, Ghost est intéressant pour plusieurs raisons :
+
+- Produit *se focalisant sur la publication de contenus*, il fait peu de choses mais il le fait (très) bien.
+
+- *Syntaxe Markdown* pour se concentrer sur le contenu. On ne mélange pas le fond et la forme.
+
+- Une *visualisation immédiate du contenu* en cours de rédaction.
+
+<<<
+
+=== La syntaxe Markdown
+
+image::content/img/markdown_logo.png[width=100%, scaledwidth=10%, align=center]
+
+[quote, 'https://fr.wikipedia.org/wiki/Markdown[définition Wikipedia]']
+____
+Markdown est un langage de balisage léger créé par John Gruber en 2004. Son but est d'offrir une syntaxe facile à lire et à écrire. Un document formaté selon Markdown devrait pouvoir être publié comme tel, en texte, sans donner l’impression qu’il a été marqué par des balises ou des instructions de formatage.
+____
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet[LE Guide d'utilisation] pour rapidement s'y retrouver.
+
+<<<
+
+=== Développeurs, pourquoi s'y intéresser ?
+
+Pour les développeurs (et intégrateurs), Ghost est intéressant pour plusieurs raisons :
+
+- https://github.com/TryGhost/Ghost[*OpenSource*] & https://github.com/TryGhost/Ghost/blob/master/LICENSE[*License MIT*].
+
+- Une *stack unifiée JavaScript* et moderne : https://nodejs.org/en/[Node.js], http://expressjs.com/fr/[Express], https://emberjs.com/[Ember.js].
+
+- Un produit *bien documenté et bien testé*.
+
+- Un http://api.ghost.org/[*accès en mode API*] pour les contenus.
+
+- Une https://github.com/TryGhost[*communauté grandissante de développeurs*].
+
+<<<
+
+=== Comment ça marche ?
+
+image::content/img/features-app-diagram-1316x.png[width=100%, scaledwidth=90%, align=center]
+
+<<<

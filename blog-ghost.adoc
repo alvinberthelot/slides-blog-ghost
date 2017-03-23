@@ -5,7 +5,7 @@
 :author: Alvin Berthelot
 :email: alvin.berthelot@webyousoon.com
 :source-highlighter: coderay
-:title-logo-image: image:content/img/webyousoon_200.png[width=100%, scaledwidth=25%, align=left]
+:title-logo-image: image:content/img/ghost_logo.png[width=100%, scaledwidth=50%, align=left]
 :icons: font
 :doctype: book
 :compat-mode:
@@ -13,15 +13,21 @@
 :pygments-style: bw
 
 // CUSTOM VARIABLES
-:nameRepository: boilerplate-slides-asciidoctor
-:urlRepository: https://github.com/alvinberthelot/boilerplate-slides-asciidoctor
+:nameRepository: slides-blog-ghost
+:urlRepository: https://github.com/alvinberthelot/slides-blog-ghost
 
 
-= Hello World !
+= Ghost, le blog minimaliste
 {author}
 
 <<<
 include::intro-license.adoc[]
+
+<<<
+include::content/partials/ghost-intro.adoc[]
+
+<<<
+include::content/partials/ghost-workshop.adoc[]
 
 <<<
 include::license.adoc[]
